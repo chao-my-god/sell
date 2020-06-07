@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.0.106/sell?characterEncoding=utf-8&useSSL=false&useUnicode=true
+  jpa:
+    show-sql: true
+server:
+  servlet:
+    context-path: /sell
+
+#logging:
+#  #配置日志格式
+#  pattern:
+#    #日期，日志信息，换行
+#    console: "%d - %msg%n"
+#  #日志文件输出
+#  file:
+#    path: E:/project
+#  level:
+#    com.chao.sell.LoggerTest: debug
